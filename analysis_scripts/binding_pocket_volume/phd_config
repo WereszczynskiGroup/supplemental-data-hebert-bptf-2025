@@ -1,0 +1,14 @@
+[DEFAULT]
+grid_spacing = 1.0
+contiguous = false
+padding = 1.4
+profile = true
+contribution = residue
+
+[cav]
+include_sphere = 97.72 64.68 78.85 5
+include_sphere = 97.75 60.40 72.98 5
+include_sphere = 92.54 62.32 76.87 5
+include_sphere = 91.88 56.48 73.79 5
+include_sphere = 87.36 60.36 77.86 5
+
