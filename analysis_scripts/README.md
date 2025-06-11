@@ -2,15 +2,13 @@
 
 Contains all post-simulation analysis scripts.
 
-Common tools:
-- cpptraj / pytraj
-- Python (MDAnalysis, MDTraj, NumPy, Pandas)
-- R (for stats or plotting)
-- GROMACS tools (e.g., `gmx rms`, `gmx hbond`)
+Tools needed to run these analyses:
+- AmberTools20 or later
+- VMD
+    - Epock plugin
+- Jupyter Notebook
+- Python 3 modules:
+    - MDAnalysis
+    - Numpy
 
-Include:
-- Scripts to extract observables (e.g., RMSD, contacts, hydrogen bonds)
-- Automation or plotting scripts for generating figures
-- Documentation of required input arguments and software dependencies
-
-If analysis is tightly coupled to simulation format, include clear instructions for conversion (e.g., from AMBER `nc` to MDTraj-readable format).
+Instructions on how to use each script are included in their directory.
