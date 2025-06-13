@@ -15,6 +15,6 @@ Systems with PHD fingers and BPTF must use the Zinc Amber Force Field. The zinc 
 - https://ambermd.org/tutorials/advanced/tutorial20/ZAFF.php
 
 Lysine 4 on one H3 (residue 1002 in these nucleosome PDBs) was trimethylated. The library loaded when creating the prmtop files can be found here:
-http://pc164.materials.uoi.gr/dpapageo/amberparams.php
+- http://pc164.materials.uoi.gr/dpapageo/amberparams.php
 
 We obtained reader-NCP complexes by aligning the H3 tail residues in UCSF Chimera and splicing the ones from the BPTF crystal structure onto the nucleosome while maintaining the binding mode.
