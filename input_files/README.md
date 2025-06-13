@@ -1,14 +1,5 @@
 # Input Files
-
-This directory contains files and scripts used to generate the molecular system and prepare it for simulation.
-
-Common contents:
-- Initial PDB files
-- Topology and coordinate files (e.g., `.prmtop`, `.inpcrd`, `.psf`, `.gro`)
-- Parameter or force field modifications (`.frcmod`, `.lib`, `.itp`)
-- System-building scripts (e.g., `tleap.in`, `parmed.in`, `gmx pdb2gmx`)
-- Solvation and ionization commands
-- Any notes on missing residues, mutations, or modeling steps
+- Starting conformation PDB files
 
 **Simulation engine neutrality:**  
 While most systems in this lab are prepared using AMBER tools (e.g., `tleap`), this directory structure is designed to support setup workflows for other MD engines as well.
@@ -20,8 +11,10 @@ All systems were neutralized with sodium ions and had extra Na+ and Cl- ions add
 
 Nucleosome systems use BSC1 force fields for DNA.
 
-Systems with PHD fingers and BPTF must use the Zinc Amber Force Field. The zinc centers must be edited in the PDB file according to the ZAFF tutorial: https://ambermd.org/tutorials/advanced/tutorial20/ZAFF.php
+Systems with PHD fingers and BPTF must use the Zinc Amber Force Field. The zinc centers must be edited in the PDB file according to the ZAFF tutorial: 
+- https://ambermd.org/tutorials/advanced/tutorial20/ZAFF.php
 
-Lysine 4 on one H3 (residue 1002 in these nucleosome PDBs) was trimethylated.
+Lysine 4 on one H3 (residue 1002 in these nucleosome PDBs) was trimethylated. The library loaded when creating the prmtop files can be found here:
+http://pc164.materials.uoi.gr/dpapageo/amberparams.php
 
 We obtained reader-NCP complexes by aligning the H3 tail residues in UCSF Chimera and splicing the ones from the BPTF crystal structure onto the nucleosome while maintaining the binding mode.
