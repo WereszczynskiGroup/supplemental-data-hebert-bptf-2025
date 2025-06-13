@@ -1,8 +1,9 @@
-# Project Title
+# Supporting Information for "Deciphering the Molecular Mechanisms of BPTF Interactions with Nucleosomes via Molecular Simulations"
 
 This repository contains supplementary code and data for:
 
-**Deciphering the Molecular Mechanisms of BPTF Interactions with Nucleosomes via Molecular Simulations**, R. Hebert and J. Wereszczynski, Biophysical Journal, 2025
+**Deciphering the Molecular Mechanisms of BPTF Interactions with Nucleosomes via Molecular Simulations**, R. Hebert and J. Wereszczynski, *bioRxiv*, 2025
+DOI: [10.1101/2025.02.25.640153]([https://doi.org/10.1101/2025.02.13.638112](https://doi.org/10.1101/2025.02.25.640153))
 
 ## Directory Structure
 - `input_files/`: Simulation setup files (PSF, PDB)
@@ -15,4 +16,12 @@ This repository contains supplementary code and data for:
 - Data: CC BY 4.0 (see LICENSE-data.txt)
 
 ## Citation
-https://doi.org/10.1101/2025.02.25.640153
+If you use materials from this repository, please cite the following:
+
+R. Hebert and J. Wereszczynski, *Deciphering the Molecular Mechanisms of BPTF Interactions with Nucleosomes via Molecular Simulations*, *bioRxiv*, 2025
+DOI: [10.1101/2025.02.25.640153](https://doi.org/10.1101/2025.02.25.640153)
+
+Data archive on Zenodo:  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14926479.svg)](https://doi.org/10.5281/zenodo.14926479)
+
+
