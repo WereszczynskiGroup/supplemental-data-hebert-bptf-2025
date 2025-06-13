@@ -4,7 +4,7 @@ These scripts are written for use with the trajectories uploaded to Zenodo from 
 
 They will use MDAnalysis to iteratively calculate DNA contacts by superhelical location with histone tails with a 4.5 Angstrom cutoff between heavy atoms.
 
-To use, combine the last 7000 frames of each trajectory into one with the convention {prefix}all.xtc. For example, for NCPs with BPTF, combine all 5 trajectories into one file called "bptf_ncpall.xtc". In the corresponding simulation directory and execute as, for example:
+To use, combine the last 7000 frames of each trajectory into one with the convention {prefix}all.xtc. For example, for NCPs with BPTF, combine all 5 trajectories into one file called "bptf_ncpall.xtc". Move to the corresponding simulation directory and execute as, for example:
 
 python /directory/to/1shl.py bptf_ncp
 
