@@ -1,0 +1,95 @@
+| Run on Sun May 11 09:14:34 2025
+|
+|Input file:
+|--------------------------------------------------------------
+|#Per-residue GB and PB decomposition
+|&general
+|  endframe=700, verbose=1, keep_files=2, receptor_mask=:1269-1331, ligand_mask=:1-1268
+|/
+|&gb
+| igb=8, saltcon=0.15,
+|/
+|/
+|&decomp
+| idecomp=1, print_res="1269-1331; 1-1268"
+| csv_format=0,
+| dec_verbose=0
+|
+|--------------------------------------------------------------
+|MMPBSA.py Version=14.0
+|Complex topology file:           ../../com.prmtop
+|Receptor topology file:          ../../rec.prmtop
+|Ligand topology file:            ../../ligand.prmtop
+|Initial mdcrd(s):                ../../EnoB2.nc
+|
+|Receptor mask:                  ":1269-1331"
+|Ligand mask:                    ":1-1268"
+|
+|Calculations performed using 700.0 complex frames.
+|
+|Generalized Born ESURF calculated using 'LCPO' surface areas
+|
+|All units are reported in kcal/mole.
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+GENERALIZED BORN:
+
+Complex:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                 -14127.8457               64.5779              2.4408
+EEL                     -11805.8931             1078.3484             40.7577
+EGB                    -113633.3727             1081.8162             40.8888
+ESURF                      656.9516                6.6019              0.2495
+
+G gas                   -25933.7388             1088.6291             41.1463
+G solv                 -112976.4211             1080.0117             40.8206
+
+TOTAL                  -138910.1600              113.8258              4.3022
+
+
+Receptor:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                   -366.1221               11.8525              0.4480
+EEL                      -3850.4649               70.9555              2.6819
+EGB                      -2119.8094               67.8155              2.5632
+ESURF                       36.8213                1.4188              0.0536
+
+G gas                    -4216.5870               72.1489              2.7270
+G solv                   -2082.9881               67.5060              2.5515
+
+TOTAL                    -6299.5751               29.1162              1.1005
+
+
+Ligand:
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                 -13698.9295               62.5485              2.3641
+EEL                     -12444.0478              871.2236             32.9292
+EGB                    -107054.5751              879.5749             33.2448
+ESURF                      629.1740                6.4518              0.2439
+
+G gas                   -26142.9773              872.3226             32.9707
+G solv                 -106425.4011              878.3976             33.2003
+
+TOTAL                  -132568.3784              110.2634              4.1676
+
+
+Differences (Complex - Receptor - Ligand):
+Energy Component            Average              Std. Dev.   Std. Err. of Mean
+-------------------------------------------------------------------------------
+VDWAALS                    -62.7940                8.1775              0.3091
+EEL                       4488.6195              656.4709             24.8123
+EGB                      -4458.9882              654.0003             24.7189
+ESURF                       -9.0438                1.1371              0.0430
+
+DELTA G gas               4425.8255              654.2361             24.7278
+DELTA G solv             -4468.0320              654.3461             24.7320
+
+DELTA TOTAL                -42.2065                7.2833              0.2753
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
