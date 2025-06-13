@@ -1,0 +1,1 @@
+MMPBSA.py -O -i decomp.in -o nucleosome1_h3.2gbsa.dat -do nucleosome1_h3.2gbsa.txt -cp com.prmtop -lp ligand.prmtop -rp rec.prmtop -y nucleosome1_h3.2.nc -eo nucleosome1_h3.2gbsa.xvg
