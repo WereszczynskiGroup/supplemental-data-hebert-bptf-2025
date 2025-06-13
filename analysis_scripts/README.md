@@ -4,6 +4,7 @@ Contains all post-simulation analysis scripts.
 
 Tools needed to run these analyses:
 - AmberTools20 or later
+- Amber20 or later for MM/GBSA
 - VMD
     - Epock plugin
 - Jupyter Notebook
